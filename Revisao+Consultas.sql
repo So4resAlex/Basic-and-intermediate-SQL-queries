@@ -1,4 +1,5 @@
 --Estas consultas são baseadas em uma base chamada SUCOS_VENDAS que tambem esta neste repositório
+--These queries are based on a database named SUCOS_VENDAS which is also in this repository.
 
 SELECT * FROM [TABELA DE PRODUTOS]
 
