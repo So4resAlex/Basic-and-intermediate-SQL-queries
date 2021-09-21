@@ -15,6 +15,8 @@ SELECT [NOME], [CPF] * FROM [TABELA DE CLIENTES]
 
 SELECT * FROM [TABELA DE PRODUTOS] WHERE [CODIGO DO PRODUTO] = '1000889'
 
+--Consulta com condição Where, mostra apenas a linha ou as linhas que obedecem a condição, nesse caso a condição é [SABOR] = 'Uva'
+--Query with Where condition, shows only the line or lines that obey the condition, in this case the condition is [SABOR] = 'Uva'
 SELECT * FROM [TABELA DE PRODUTOS] WHERE [SABOR] = 'Uva'
 
 SELECT * FROM [TABELA DE PRODUTOS] WHERE [SABOR] = 'Limao'
