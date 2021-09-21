@@ -6,13 +6,10 @@ SELECT * FROM [TABELA DE PRODUTOS]
 
 --Mostra colunas especificas de uma tabela, nessa caso a coluna [NOME] E [CPF] da [TABELA DE CLIENTES]
 --Shows specific columns of a table, in this case the column [NAME] AND [CPF] of the [CUSTOMER TABLE]
-
 SELECT [NOME], [CPF] * FROM [TABELA DE CLIENTES]
-
 
 --Consulta com condição Where, mostra apenas a linha ou as linhas que obedecem a condição, nesse caso a condição é [CODIGO DO PRODUTO] = '1000889'
 --Query with Where condition, shows only the line or lines that obey the condition, in this case the condition is [PRODUCT CODE] = '1000889'
-
 SELECT * FROM [TABELA DE PRODUTOS] WHERE [CODIGO DO PRODUTO] = '1000889'
 
 --Consulta com condição Where, mostra apenas a linha ou as linhas que obedecem a condição, nesse caso a condição é [SABOR] = 'Uva'
