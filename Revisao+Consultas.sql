@@ -52,14 +52,19 @@ SELECT * FROM [TABELA DE PRODUTOS] WHERE EMBALAGEM <= 'Lata'
 --Query with Where condition, shows the line or lines that comply with the condition, in this case the condition is the packaging value being different from the can EMBALAGEM <> 'Lata'
 SELECT * FROM [TABELA DE PRODUTOS] WHERE EMBALAGEM <> 'Lata'
 
---Consulta com condição Where, mostra a linha ou as linhas cuja condição [DATA DE NASCIMENTO] = '1995-09-11' for verdadeira, [DATA DE NASCIMENTO] for igual a '1995-09-11' 
+--Consulta com condição Where, mostra a linha ou as linhas cuja condição [DATA DE NASCIMENTO] = '1995-09-11' for verdadeira, [DATA DE NASCIMENTO] for igual a '1995-09-11'
+--Query with Where condition, shows the line or lines whose condition [DATA DE NASCIEMNTO] = '1995-09-11' is true, [DATA DE NASCIMENTO] is equal to '1995-09-11' 
 SELECT * FROM [TABELA DE CLIENTES] WHERE [DATA DE NASCIMENTO] = '1995-09-11'
 
 --Consulta com condição Where, mostra a linha ou as linhas cuja condição [DATA DE NASCIMENTO] = '1995-09-11' for verdadeira, [DATA DE NASCIMENTO] for maior ou igual a '1995-09-11' 
+--Query with Where condition, shows the line or lines whose condition [DATA DE NASCIMENTO = '1995-09-11' is true, [DATA DE NASCIMENTO] is greater than or equal to '1995-09-11'
 SELECT * FROM [TABELA DE CLIENTES] WHERE [DATA DE NASCIMENTO] >= '1995-09-11'
 
+--Consulta com condição Where, mostra a linha ou as linhas cuja condição [DATA DE NASCIMENTO] = '1995-09-11' for verdadeira, [DATA DE NASCIMENTO] for menor ou igual a '1995-09-11' 
+--Query with Where condition, shows the line or lines whose condition [DATA DE NASCIMENTO] = '1995-09-11' is true, [DATA DE NASCIEMNTO] is less than or equal to '1995-09-11'
 SELECT * FROM [TABELA DE CLIENTES] WHERE [DATA DE NASCIMENTO] <= '1995-09-11'
 
+--Consulta utilizando  a condição Where e a FUNÇÂO Year, esta função recebe como parametro o ano de uma coluna do tipo data, ela retornara as  linhas da [TABELA DE CLINTE] cuja data de nascimento do clinte for no ano de 1995
 SELECT * FROM [TABELA DE CLIENTES] WHERE YEAR([DATA DE NASCIMENTO]) = 1995 
 
 SELECT * FROM [TABELA DE CLIENTES] WHERE YEAR([DATA DE NASCIMENTO]) < 1995 
