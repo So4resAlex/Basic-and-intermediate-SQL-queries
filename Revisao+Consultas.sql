@@ -4,7 +4,12 @@
 --Mostra toda a tabela//Show the entire table
 SELECT * FROM [TABELA DE PRODUTOS]
 
+--Mostra colunas especificas de uma tabela, nessa caso a coluna [NOME] E [CPF] da [TABELA DE CLIENTES]
+--Shows specific columns of a table, in this case the column [NAME] AND [CPF] of the [CUSTOMER TABLE]
+
 SELECT [NOME], [CPF] * FROM [TABELA DE CLIENTES]
+
+
 
 SELECT * FROM [TABELA DE PRODUTOS] WHERE [CODIGO DO PRODUTO] = '1000889'
 
