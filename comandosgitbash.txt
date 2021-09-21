@@ -1,0 +1,15 @@
+entrar no repositório 
+
+cd "caminho do repositório"
+
+Ver se há alterações a serem comitadas
+git status
+
+Adiciona o arquivo a ser comitaado
+git add nome do arquivo
+
+Realizando commit 
+git commit -m "commit"
+
+Enviando as  alterações para o GitHub
+git push origin main
