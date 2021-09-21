@@ -55,7 +55,7 @@ SELECT * FROM [TABELA DE PRODUTOS] WHERE EMBALAGEM <> 'Lata'
 --Consulta com condição Where, mostra a linha ou as linhas cuja condição [DATA DE NASCIMENTO] = '1995-09-11' for verdadeira, [DATA DE NASCIMENTO] for igual a '1995-09-11' 
 SELECT * FROM [TABELA DE CLIENTES] WHERE [DATA DE NASCIMENTO] = '1995-09-11'
 
-
+--Consulta com condição Where, mostra a linha ou as linhas cuja condição [DATA DE NASCIMENTO] = '1995-09-11' for verdadeira, [DATA DE NASCIMENTO] for maior ou igual a '1995-09-11' 
 SELECT * FROM [TABELA DE CLIENTES] WHERE [DATA DE NASCIMENTO] >= '1995-09-11'
 
 SELECT * FROM [TABELA DE CLIENTES] WHERE [DATA DE NASCIMENTO] <= '1995-09-11'
