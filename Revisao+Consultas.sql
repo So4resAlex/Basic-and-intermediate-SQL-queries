@@ -20,24 +20,41 @@ SELECT * FROM [TABELA DE PRODUTOS] WHERE [SABOR] = 'Uva'
 --Query with Where condition, shows only the line or lines that obey the condition, in this case the condition is [SABOR] = 'Limao'
 SELECT * FROM [TABELA DE PRODUTOS] WHERE [SABOR] = 'Limao'
 
-
+--Consulta com condição Where, mostra apenas a linha ou as linhas que obedecem a condição, nesse caso a condição é EMBALAGEM = 'PET'
+--Query with Where condition, shows only the line or lines that obey the condition, in this case the condition is EMBALAGEM = 'PET'
 SELECT * FROM [TABELA DE PRODUTOS] WHERE EMBALAGEM = 'PET'
 
+--Consulta com condição Where, mostra apenas a linha ou as linhas que obedecem a condição, nesse caso a condição é [PRECO DE LISTA] = 4.555
+--Query with Where condition, shows only the line or lines that obey the condition, in this case the condition is [PRECO DE LISTA] = 4.555
 SELECT * FROM [TABELA DE PRODUTOS] WHERE [PRECO DE LISTA] = 4.555
 
+--Consulta com condição Where, mostra apenas a linha ou as linhas que obedecem a condição, nesse caso a condição é [PRECO DE LISTA] > 10
+--Query with Where condition, shows only the line or lines that obey the condition, in this case the condition is [PRECO DE LISTA] > 10
 SELECT * FROM [TABELA DE PRODUTOS] WHERE [PRECO DE LISTA] > 10
 
+--Consulta com condição Where, mostra apenas a linha ou as linhas que obedecem a condição, nesse caso a condição é [PRECO DE LISTA] < 10
+--Query with Where condition, shows only the line or lines that obey the condition, in this case the condition is [PRECO DE LISTA] < 10
 SELECT * FROM [TABELA DE PRODUTOS] WHERE [PRECO DE LISTA] < 10
 
+--Consulta com condição Where, mostra apenas a linha ou as linhas que obedecem a condição, nesse caso a condição é [PRECO DE LISTA] <= 4.555
+--Query with Where condition, shows only the line or lines that obey the condition, in this case the condition is [PRECO DE LISTA] <= 4.555
 SELECT * FROM [TABELA DE PRODUTOS] WHERE [PRECO DE LISTA] <= 4.555
 
+--Consulta com condição Where, mostra apenas a linha ou as linhas que obedecem a condição, nesse caso a condição é [PRECO DE LISTA] >= 4.555
+--Query with Where condition, shows only the line or lines that obey the condition, in this case the condition is [PRECO DE LISTA] >= 4.555
 SELECT * FROM [TABELA DE PRODUTOS] WHERE [PRECO DE LISTA] >= 4.555
 
+--Consulta com condição Where, mostra apenas a linha ou as linhas que obedecem a condição, nesse caso a condição é [PRECO DE LISTA] <= 'Lata',quando menor ou maior é adicionado a uma condição Alfa numerica ele se refere a ordem alfabetica
+--Query with Where condition, shows only the line or lines that obey the condition, in this case the condition is [LIST PRICE] <= 'Lata', when smaller or larger is added to a numerical Alpha condition it refers to alphabetical order
 SELECT * FROM [TABELA DE PRODUTOS] WHERE EMBALAGEM <= 'Lata'
 
+--Consulta com condição Where, mostra a linha ou as linhas que obedecem a condição, nesse caso a condição é o valor de embalagem ser diferente de lata EMBALAGEM <> 'Lata
+--Query with Where condition, shows the line or lines that comply with the condition, in this case the condition is the packaging value being different from the can EMBALAGEM <> 'Lata'
 SELECT * FROM [TABELA DE PRODUTOS] WHERE EMBALAGEM <> 'Lata'
 
+--Consulta com condição Where, mostra a linha ou as linhas cuja condição [DATA DE NASCIMENTO] = '1995-09-11' for verdadeira, [DATA DE NASCIMENTO] for igual a '1995-09-11' 
 SELECT * FROM [TABELA DE CLIENTES] WHERE [DATA DE NASCIMENTO] = '1995-09-11'
+
 
 SELECT * FROM [TABELA DE CLIENTES] WHERE [DATA DE NASCIMENTO] >= '1995-09-11'
 
