@@ -5,7 +5,7 @@ cd "caminho do repositório"
 Ver se há alterações a serem comitadas
 git status
 
-Adiciona o arquivo a ser comitaado
+Adiciona o arquivo a ser comitado
 git add nome do arquivo
 
 Realizando commit 
