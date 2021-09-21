@@ -13,3 +13,5 @@ git commit -m "commit"
 
 Enviando as  alterações para o GitHub
 git push origin main
+
+Adicionando commit a partir do VS Code
