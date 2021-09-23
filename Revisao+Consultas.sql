@@ -64,7 +64,8 @@ SELECT * FROM [TABELA DE CLIENTES] WHERE [DATA DE NASCIMENTO] >= '1995-09-11'
 --Query with Where condition, shows the line or lines whose condition [DATA DE NASCIMENTO] = '1995-09-11' is true, [DATA DE NASCIEMNTO] is less than or equal to '1995-09-11'
 SELECT * FROM [TABELA DE CLIENTES] WHERE [DATA DE NASCIMENTO] <= '1995-09-11'
 
---Consulta utilizando  a condição Where e a FUNÇÂO Year, esta função recebe como parametro o ano de uma coluna do tipo data, ela retornara as  linhas da [TABELA DE CLINTE] cuja data de nascimento do clinte for no ano de 1995
+--Consulta utilizando  a condição Where e a FUNÇÂO Year, esta função recebe como parametro o ano de uma coluna do tipo data, ela retornara as  linhas da [TABELA DE CLIENTE] cuja data de nascimento do clinte for no ano de 1995
+--Query using the Where condition and the Year FUNCTION, this function receives as a parameter the year of a column of type date, it will return the lines of the [TABELA DE CLIENTE] whose client's date of birth is in the year 1995
 SELECT * FROM [TABELA DE CLIENTES] WHERE YEAR([DATA DE NASCIMENTO]) = 1995 
 
 SELECT * FROM [TABELA DE CLIENTES] WHERE YEAR([DATA DE NASCIMENTO]) < 1995 
