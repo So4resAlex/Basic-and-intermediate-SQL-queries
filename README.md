@@ -1,1 +1,3 @@
-# Basic-and-intermediate-SQL-queries
+# Consultas basicas e intermediarias/Basic-and-intermediate-SQL-queries
+
+
