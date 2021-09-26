@@ -68,10 +68,14 @@ SELECT * FROM [TABELA DE CLIENTES] WHERE [DATA DE NASCIMENTO] <= '1995-09-11'
 --Query using the Where condition and the Year FUNCTION, this function receives as a parameter the year of a column of type date, it will return the lines of the [TABELA DE CLIENTE] whose client's date of birth is in the year 1995
 SELECT * FROM [TABELA DE CLIENTES] WHERE YEAR([DATA DE NASCIMENTO]) = 1995 
 
---Consuta utilizando a condição Where e a função Year, esta função recebe como parametro o ano de uma coluna com tipo data, ela retornará as linhas da [TABELA DE CLIENTES] cuja data de nascimento cliente for anterior a 1995
---Query using the Where condition and the Year function, this function receives as parameter the year of a column with date type, it will return the rows of [TABELA DE CLIENTES] whose customer birth date is before 1995
+--Consuta utilizando a condição Where e a função Year, esta função recebe como parametro o ano de uma coluna com tipo data, ela retornará as linhas da [TABELA DE CLIENTES] cuja o ano de nascimento do cliente for anterior a 1995
+--Query using the Where condition and the Year function, this function receives as parameter the year of a column with date type, it will return the rows of [TABELA DE CLIENTES] whose the yerar of birth date is before 1995
 SELECT * FROM [TABELA DE CLIENTES] WHERE YEAR([DATA DE NASCIMENTO]) < 1995 
 
+--Consulta utilizando a condição Where e a função Month, esta função recebe como parametro o mês de uma coluna do tipo data, ela retornara as linhas da [TABELA DE CLIENTES] cuja mês de nascimento do cliente for igual a dezembro( mês 12)
+--Query using the Where condition and the Month function, this function receives as a parameter the month of a column of the date type, it will return the rows of the [TABELA DE CLIENTES] whose month of birth of the customer is equal to December (month 12)
 SELECT * FROM [TABELA DE CLIENTES] WHERE MONTH([DATA DE NASCIMENTO]) = 12
 
+--Consulta utilizando a condição Where e a função Day, esta função recebe como parametro o dia de uma coluna do tipo data, ela retornara as linhas da [TABELA DE CLIENTES] cujo dia de nascimento do cliente for igual a 11
+--Query using the Where condition and the Day function, this function receives as a parameter the day of a column of the date type, it will return the rows of the [TABELA DE CLIENTES] whose day of birth of the customer is equal to 11
 SELECT * FROM [TABELA DE CLIENTES] WHERE DAY([DATA DE NASCIMENTO]) = 11
